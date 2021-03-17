@@ -224,8 +224,8 @@ def is_hwnd_xl_app(hwnd):
         return False
 
 
-_PyCom_PyObjectFromIUnknown = PyDLL(pythoncom.__file__).PyCom_PyObjectFromIUnknown
-_PyCom_PyObjectFromIUnknown.restype = py_object
+# _PyCom_PyObjectFromIUnknown = PyDLL(pythoncom.__file__).PyCom_PyObjectFromIUnknown
+# _PyCom_PyObjectFromIUnknown.restype = py_object
 
 
 def get_xl_app_from_hwnd(hwnd):
